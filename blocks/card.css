@@ -1,42 +1,42 @@
 .card {
-    width: 540px;
-    flex: 0 1 540px;
-  }
-  
-  .card__title {
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0 0 32px;
-  }
-  
-  .card__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .card__list-item {
-    display: flex;
-    align-items: baseline;
-    font-family: "Noto Serif",  Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 16px;
-  }
-  
-  .card__list-item:first-child {
-    margin-top: 0;
-  }
-  
-  .card__list-divider {
-    flex-grow: 1;
-    margin: 0 8px;
-    border-bottom: 1px solid #000;
-  }
-  
-  .card__list-items {
-    padding: 0px;
-    margin: 0px;
-  }
+  width: 540px;
+  flex: 0 1 540px;
+}
+
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-item {
+  display: flex;
+  align-items: baseline;
+  font-family:  "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+
+.card__list-item:first-child {
+  margin-top: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  margin: 0 8px;
+  border-bottom: 1px solid #000;
+}
+
+.card__list-items {
+  padding: 0px;
+  margin: 0px;
+}
